@@ -1,11 +1,9 @@
 package datastruct.heap;
 
-
 /**
  * @author kyan
  *
- * My Implement of MaxHeap using Array data structure
- * Begins from index 0
+ * My Implement of MaxHeap
  *
  * example:
  *       20(0)
@@ -14,11 +12,6 @@ package datastruct.heap;
  *    /    \
  *   13(3) 4(4)
  *
- * consider ith element of the array, the
- *
- *  - its parent is located at (i-1)/2 index
- *  - its left child is located at 2*i+1 index
- *  - its right child is located at 2*i+2 index
  */
 public class MyMaxHeap extends AbstractHeap {
 

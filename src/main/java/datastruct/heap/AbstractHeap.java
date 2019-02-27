@@ -1,5 +1,16 @@
 package datastruct.heap;
 
+/**
+ *
+ * @author kyan
+ *
+ * The heap is implemented using an array indexed from 0
+ *
+ * consider ith element of the array,
+ *  - its parent is located at (i-1)/2 index
+ *  - its left child is located at 2*i+1 index
+ *  - its right child is located at 2*i+2 index
+ */
 public abstract class AbstractHeap {
 
     private int[] heap;

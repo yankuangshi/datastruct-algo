@@ -3,8 +3,7 @@ package datastruct.heap;
 /**
  * @author kyan
  *
- * My implement of MinHeap using array data structure
- * The datas begin from array index 0
+ * My implement of MinHeap
  *
  * example:
  *     15(0)
@@ -13,11 +12,6 @@ package datastruct.heap;
  *  /   \
  * 30(3) 31(4)
  *
- * consider ith element of the array, the
- *
- *  - its parent is located at (i-1)/2 index
- *  - its left child is located at 2*i+1 index
- *  - its right child is located at 2*i+2 index
  */
 public class MyMinHeap extends AbstractHeap {
 
