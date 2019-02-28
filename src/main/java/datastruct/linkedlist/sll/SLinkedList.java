@@ -1,6 +1,6 @@
 package datastruct.linkedlist.sll;
 
-import datastruct.stack.Stack;
+import datastruct.stack.LinkedStack;
 
 /**
  * Implement of singly linked list
@@ -184,15 +184,15 @@ public class SLinkedList<T> {
      * reverse the list with the stack approach
      */
     public void reverseWithStack() {
-        Stack<T> stack = new Stack<T>();
+        LinkedStack<T> linkedStack = new LinkedStack<T>();
         SNode<T> temp = head;
         while (temp != null) {
-            stack.push(temp.data);
+            linkedStack.push(temp.data);
             temp = temp.next;
         }
         SLinkedList<T> newSLList = new SLinkedList<T>();
-        while (stack.size() > 0) {
-            T item = stack.pop();
+        while (linkedStack.size() > 0) {
+            T item = linkedStack.pop();
             newSLList.insert(item);
         }
         head = newSLList.head;
