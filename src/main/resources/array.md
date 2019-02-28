@@ -63,3 +63,29 @@ ArrayList的优势：相比于数组，ArrayList封装了数组的很多操作�
 ## 二维数组的寻址公式
 
 二维数组本质上也是一个连续内存地址的一维数组，所以假设二维数组是`m*n`，则`a[i][j]_addr = base_addr + (i*n+j) * data_type_size`
+
+## 关于数组的代码实现
+
+* 实现一个支持动态扩容的数组 
+* 实现一个大小固定的有序数组
+* 实现两个有序数组合并为一个有序数组
+
+LeetCode练习题：
+
+* Two Sum（两数之和）
+  
+* Three Sum（三数之和）
+  
+* Majority Element（在数组中出现次数超过一半的数）
+  
+* FizzBuzz（3 和 5 的倍数）
+  
+* Merge Sorted Array（合并两个有序数组）
+  
+* First Missing Positive（寻找缺失的最小正数）
+  
+* Kth Largest Element in an Array（查找第K大的数）
+  
+* Single Number（数组中只出现一次的数）
+  
+* Find All Duplicates in an Array（数组中重复的数字）
